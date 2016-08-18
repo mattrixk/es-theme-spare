@@ -1,0 +1,118 @@
+<!--
+theme name:		Spare
+version:		1.0
+author:			Matt Kennedy
+email:			
+website:		
+license:		creative commons CC-BY-NC-SA
+based on:		"Carbon" by Eric Hettervik
+-->
+
+<theme>
+
+	<formatVersion>4</formatVersion>
+
+	<view name="system, basic, detailed">
+
+		<image name="background_color" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<color>d4d4d4</color>
+		</image>
+
+		<image name="background_pattern" extra="true">
+			<path>./_inc/images/bg_pattern.png</path>
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.5</pos>
+			<size>1 1</size>
+			<color>aeaeae</color>
+			<tile>true</tile>
+		</image>
+
+		<image name="background_help" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 1</origin>
+			<pos>0 1</pos>
+			<size>1 0.070</size>
+			<color>FFFFFF99</color>
+		</image>
+
+		<helpsystem name="help">
+			<textColor>000000</textColor>
+			<iconColor>000000</iconColor>
+			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+			<fontSize>0.03</fontSize>
+		</helpsystem>
+
+	</view>
+
+	<view name="basic">
+
+		<image name="background_logo" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0 0</pos>
+			<size>1 0.18</size>
+			<color>FFFFFF99</color>
+		</image>
+
+		<image name="logo">
+			<origin>0.5 0.5</origin>
+			<pos>0.5 0.09</pos>
+			<maxSize>0.4 0.16</maxSize>
+		</image>
+
+		<image name="background_gamelist" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.05 0.2</pos>
+			<size>0.9 0.71</size>
+			<color>FFFFFF99</color>
+		</image>
+
+		<textlist name="gamelist">
+			<selectorColor>000000</selectorColor>
+			<selectedColor>FFFFFF</selectedColor>
+			<primaryColor>000000</primaryColor>
+			<secondaryColor>888888</secondaryColor>
+			<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+			<pos>0.05 0.2</pos>
+			<size>0.9 0.71</size>
+			<fontSize>0.04</fontSize>
+		</textlist>
+
+	</view>
+
+	<view name="detailed">
+		
+		<image name="background_logo_gamelist" extra="true">
+			<path>./_inc/images/bg_color.png</path>
+			<origin>0 0</origin>
+			<pos>0.01 0.02</pos>
+			<size>0.35 0.89</size>
+			<color>FFFFFF99</color>
+		</image>
+
+			<image name="logo">
+				<origin>0.5 0.5</origin>
+				<pos>0.186 0.14</pos>
+				<maxSize>0.33 0.19</maxSize>
+			</image>
+
+			<textlist name="gamelist">
+				<selectorColor>000000</selectorColor>
+				<selectedColor>FFFFFF</selectedColor>
+				<primaryColor>000000</primaryColor>
+				<secondaryColor>888888</secondaryColor>
+				<fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
+				<pos>0.02 0.25</pos>
+				<size>0.33 0.64</size>
+				<fontSize>0.04</fontSize>
+				<horizontalMargin>0.01</horizontalMargin>
+			</textlist>
+
+	</view>
+
+</theme>
