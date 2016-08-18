@@ -6,7 +6,7 @@
 	<view name="system, basic, detailed">
 
 		<image name="logo">
-			<path>./logo.png</path>
+			<path>./system.svg</path>
 		</image>
 
 	</view>
