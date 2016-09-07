@@ -1,4 +1,4 @@
-# MetaPixel
+# Spare
 Theme for Emulationstation and RetroPie
 
 
