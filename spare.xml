@@ -12,7 +12,7 @@ based on:		"Carbon" by Eric Hettervik
 
 	<formatVersion>4</formatVersion>
 
-	<view name="system, basic, detailed">
+	<view name="system, basic, detailed, video">
 
 		<image name="background_color" extra="true">
 			<path>./_inc/images/bg_color.png</path>
@@ -86,6 +86,29 @@ based on:		"Carbon" by Eric Hettervik
 	</view>
 
 	<view name="detailed">
+		<image name="md_image">
+			<origin>0.5 0.5</origin>
+			<pos>0.545 0.33</pos>
+			<maxSize>0.33 0.58</maxSize>
+		</image>
+	</view>
+
+	<view name="video">
+		<video name="md_video">
+			<origin>0.5 0.5</origin>
+			<pos>0.545 0.39</pos>
+			<maxSize>0.33 0.46</maxSize>
+			<showSnapshotNoVideo>true</showSnapshotNoVideo>
+		</video>
+
+		<image name="md_marquee">
+			<origin>0.5 0.5</origin>
+			<pos>0.545 0.11</pos>
+			<maxSize>0.33 0.15</maxSize>
+		</image>
+	</view>
+
+	<view name="detailed, video">
 		
 		<image name="background_logo_gamelist" extra="true">
 			<path>./_inc/images/bg_color.png</path>
@@ -120,12 +143,6 @@ based on:		"Carbon" by Eric Hettervik
 			<size>0.35 0.62</size>
 			<color>FFFFFF99</color>
 		</image>
-
-			<image name="md_image">
-				<origin>0.5 0.5</origin>
-				<pos>0.545 0.33</pos>
-				<maxSize>0.33 0.58</maxSize>
-			</image>
 		
 		<image name="background_metadata" extra="true">
 			<path>./_inc/images/bg_color.png</path>
